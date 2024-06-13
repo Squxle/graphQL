@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(27, 26, 26);
+}
+
+.titrePage {
+    margin-top: 40px;
+    font-size: 170%;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff; 
+    border: 2px solid #007bff; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style lorsque le bouton est survolé */
+button:hover {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+.infoUsername,
+.infoPassword{
+    font-size: 130%;
+}
+
+.titrePage,
+.infoUsername,
+.infoPassword,
+.infoUser,
+button {
+    margin-bottom: 20px;
+    color: rgb(198, 216, 231);
+    background-color: rgb(27, 26, 26);
+}
+
+#errorMessage{
+    margin-bottom: 40px;
+    color: rgb(158, 47, 47);
+    background-color: rgb(27, 26, 26);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    border-color: #007bff;
+}
+
+.graphDiv{
+    margin-bottom: 10px;
+    color: rgb(198, 216, 231);
+    background-color: rgb(27, 26, 26);
+    font-size: 120%;
+}

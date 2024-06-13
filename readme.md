@@ -1,0 +1,1 @@
+projet pour obtenir toutes les stats relatives à la formation avec une interface utilisateur
